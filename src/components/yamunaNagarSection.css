@@ -1,5 +1,5 @@
-.font-38 {
-    font-size: 38px;
+.font-32 {
+    font-size: 32px;
 }
 
 .yamuna-section {
@@ -31,18 +31,11 @@
 
 }
 
-/* .yamuna-section .image-section .yellow-box {
-  left: 0;
-
-} */
-
 .yamuna-section .image-section .green-box {
     width: 70%;
     height: 360px;
     background-color: #014828;
     border-radius: 35px;
-
-    /* height: 60%; */
     top: 22%;
     bottom: 17%;
 
@@ -53,16 +46,12 @@ P {
 }
 
 .yamuna-section .image-wrapper {
-    /* bottom: -10px; */
     margin-left: 7.5%;
     top: 9%;
-    /* justify-content: center;
-   align-items: center; */
 }
 
 .image-section img {
     width: 80%;
-    /* height: 380px; */
 
 }
 
@@ -79,7 +68,7 @@ P {
 
     .yamuna-section .text-section {
         order: 2;
-        padding: 0px 20px;
+        padding: 20px;
     }
 }
 

@@ -19,12 +19,12 @@
 
 h2 {
     font-family: "Kameron";
-    font-size: 38px;
+    font-size: 36px;
     font-weight: 600;
-    /* line-height: 47.48px; */
 }
 
 h2 span {
+    font-family: "Kameron";
     font-weight: 400;
     display: inline-block;
 }
@@ -32,8 +32,7 @@ h2 span {
 p {
     font-family: 'Inter';
     font-weight: 400;
-    /* font-size: 24px; */
-    line-height: 29.05px;
+    /* line-height: 29.05px; */
 }
 
 .about-welcome {
@@ -60,13 +59,21 @@ p {
         padding: 20px;
     }
 
-    /* .yamuna-section .about-welcome {
-        order: 2;
-        padding: 20px 0;
+    .image-rectangle{
+        height: 70%;
+    width: 90%;
+    margin: 0 auto;
+    align-items: center;
+    display: flex;
     }
 
-    .yamuna-section .image-rectangle {
-        order: 1;
-        margin-bottom: 20px;
-    } */
+    h2{
+        font-size: 28px;
+    }
+}
+
+@media (max-width:560px){
+    h2{
+        font-size: 22px;
+    }
 }

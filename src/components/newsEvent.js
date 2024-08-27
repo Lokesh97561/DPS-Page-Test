@@ -1,16 +1,17 @@
+/* eslint-disable jsx-a11y/alt-text */
 import React from 'react';
 import './newsEvent.css'
 const newsEvent = () => {
     return (
         <body>
-        <link rel="stylesheet" href="styles.css"/>
+
         <section className="main-section">
-            <div className="content-left">
-                <h4><strong>Discover the Best Co-ed CBSE School</strong></h4>
+            <div>
+                <h4 className="mb-4">Discover the Best Co-ed CBSE School</h4>
                 <img src="./Images/Untitled-2 1.png" className="images"/>
             </div>
             <div className="content-right">
-                <h4><strong>News and Events</strong></h4>
+                <h4 className="mb-4">News and Events</h4>
                 <div className="events-grid">
                     <div className="event-card">
                         <img src="./Images/Rectangle 41.png" alt="Janmashtami Celebration"/>

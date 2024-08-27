@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: Arial, sans-serif;
+    
 }
 
 body {
@@ -12,24 +12,29 @@ body {
 
 .testimonial-section {
     text-align: center;
-    margin: 0 auto;
-    max-width: 1455px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    padding-top: 70px;
+    padding: 4% 12% 4% 12%;
 }
 
 .testimonial-section h2 {
-    font-size: 2em;
-    margin-bottom: 20px;
+    font-family: 'Kameron';
+    font-weight: 600;
+    text-align: center;
     color: #333;
 }
 
+.testimonial-section h3{
+    font-family: 'Kameron';
+    color:  rgba(0, 0, 0, 1);
+    text-align: center;
+    
+}
 .testimonial-container {
     display: flex;
-    justify-content: space-around;
+    justify-content:space-between;
     flex-wrap: wrap;
     color: #fff;
-    padding: 100px;
+    padding-top: 4%;
 }
 
 .testimonial {
@@ -37,44 +42,63 @@ body {
     padding: 20px;
     border-radius: 10px;
     max-width: 45%;
-    margin: 10px;
     text-align: center;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 .testimonial-image{
     display: flex;
 }
-.left-quote{
+/* .left-quote{
     margin-right: 80px;
-}
+} */
 .testimonial-image img {
     border-radius: 50%;
     width: 100px;
     height: 100px;
 }
-
-.testimonial h3 {
-    margin: 10px 0;
-    font-size: 1.5em;
-    color: #333;
+.image-alignment{
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    display: flex;
+  margin-left: 20%;
 }
+
 
 .font-size{
     line-height: 1;
 }
 .testimonial p {
-    font-size: 1em;
-    color: #666;
-    line-height: 1.6;
+
+    font-family: 'Inter';
+font-size: 14px;
+font-weight: 400;
+color: rgba(0, 0, 0, 1);
+text-align: center;
+
 }
 
 @media screen and (max-width: 768px) {
     .testimonial-container {
         flex-direction: column;
         align-items: center;
+        gap: 20px;
     }
 
     .testimonial {
         max-width: 100%;
+    }
+
+    .testimonial-section{
+        padding: 20px;
+    }
+    .image-alignment{
+        margin-left: 28%;
+    }
+}
+
+@media screen and (max-width: 365px){
+    .testimonial-section{
+        padding: 20px;
     }
 }
